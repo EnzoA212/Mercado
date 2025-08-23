@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .quadrado{
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            width: 250px;
+            height: 150px;
+            border: 2px solid #081645; 
+            border-radius: 3px;
+             box-shadow:0 1px 1px #ff7070;
+        }
+
+        .fotonome{
+            display: grid;
+            grid-template-columns: 80px 1fr;
+        }
+
+        .maisqntdmenos{
+            display: grid;
+            grid-template-columns: 70px 1fr 70px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="quadrado">
+        <div class="fotonome">
+            <div style="background-color: aquamarine;">foto</div>
+            <div style="background-color: brown;">nome</div>
+        </div>
+        <div class="maisqntdmenos">
+            <div style="background-color: blue;">1</div>
+            <div style="background-color: aquamarine;">2</div>
+            <div style="background-color: chocolate;">3</div>
+        </div>
+    </div>
+</body>
+</html>

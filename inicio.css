@@ -64,7 +64,7 @@ body {
        border-radius: 6px;
         box-shadow:0 2px 4px #ff7070;
         height: 400px;
-         width: 70%;       /* ocupa 90% da tela */
+         width: 90%;       /* ocupa 90% da tela */
   max-width: 1000px;
        }
      
@@ -73,7 +73,8 @@ body {
       grid-template-rows: 20px 1fr; } 
      
      .bemVindoEscrita{ 
-      text-align: left; 
+      font-family: "DM Sans", sans-serif;
+      text-align: center; 
       text-align: justify; 
       font-weight: bold; 
       font-size: xx-large;
