@@ -1,0 +1,77 @@
+body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    /* Barra */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 40px;
+      background-color: #ff7070;  
+      margin-bottom: 10px;
+    }
+
+    /* Nome/logo */
+    .navbar .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    /* Links */
+    .navbar .menu a {
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 6px;
+      transition: 0.3s;
+      
+    }
+
+    /* Efeito hover */
+    .navbar .menu a:hover {
+      background: rgba(255,255,255,0.2);
+    }
+
+    /* botão do Entrar */
+    .navbar .menu a.btn {
+      background: #fff;
+      color: #ff4d4d;
+      font-weight: bold;
+    }
+      /*Colocar o mouse no entrae*/
+    .navbar .menu a.btn:hover {
+      background: #ffecec;
+    }
+
+     main { margin: 0;
+       height: 75vh; /* altura total da tela */ display: flex; 
+       justify-content: flex-start; /* centraliza na horizontal */ 
+       align-items: center; /* centraliza na vertical */
+      margin-left: 120px;
+      }
+       
+     
+     .boasVinda{ display: grid;
+       grid-template-rows: 1fr 1fr 1fr 1fr; background-color: #fff8f8; 
+       border: 2px solid #081645; 
+       border-radius: 6px;
+        box-shadow:0 2px 4px rgba(0,0,0,0.2);
+        height: 400px;
+         width: 70%;       /* ocupa 90% da tela */
+  max-width: 1000px;
+       }
+     
+     .bemVindo{ display: grid; 
+      grid-template-rows: 20px 1fr; } 
+     
+     .bemVindoEscrita{ text-align: left; 
+      text-align: justify; 
+      font-weight: bold; 
+      font-size: xx-large;
+       margin-top: 30px;}
