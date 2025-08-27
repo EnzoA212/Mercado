@@ -1,0 +1,132 @@
+body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #ebe5e5;
+    }
+
+    /* Barra */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 40px;
+      background-color: #ff7070;  
+      margin-bottom: 10px;
+    }
+
+    /* Nome/logo */
+    .navbar .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    /* Links */
+    .navbar .menu a {
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 6px;
+      transition: 0.3s;
+      
+    }
+
+    /* Efeito hover */
+    .navbar .menu a:hover {
+      background: rgba(255,255,255,0.2);
+    }
+
+    /* botão do Entrar */
+    .navbar .menu a.btn {
+      background: #fff;
+      color: #ff4d4d;
+      font-weight: bold;
+    }
+      /*Colocar o mouse no entrae*/
+    .navbar .menu a.btn:hover {
+      background: #f6e3e3;
+    }
+
+    /*Main*/
+
+      .menucadastro {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 675px; /* precisa ter largura */
+  height: 500px;
+  row-gap: 5px;
+  background: #fff;    /* fundo branco para destacar */
+  border-radius: 16px; /* cantos arredondados */
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  padding: 25px;
+}
+
+.menucadastro input {
+  width: 90%;       /* largura do quadrado */
+  padding: 10px;      /* espaço interno */
+  margin: 10px 0;      /* espaço entre os campos */
+  border: 2px solid #ccc;
+  border-radius: 8px; /* deixa cantos arredondados */
+  font-size: 16px;
+}
+
+.menucadastro input:focus {
+  border-color: #ff7070; /* cor quando clica */
+  outline: none;
+}
+
+.emailSenhaNomeCep{
+  display: grid;
+  grid-template-rows:40px 1fr;
+}
+
+.nome{
+  margin-top: auto;
+  margin-left: 8px;
+  font-size: larger;
+  font-weight: bold;
+}
+.email{
+  margin-top: auto;
+  margin-left: 8px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+
+.senha{
+  margin-top: auto;
+  margin-left: 8px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.CEP{
+    margin-top: auto;
+  margin-left: 8px;
+  font-size: larger;
+  font-weight: bold;
+}
+.btnCadastrar {
+  background-color: #007bff; /* verde */
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 93.5%;
+  margin-top: 20px;
+}
+
+.btnCadastrar:hover {
+  background-color: #0153ab; /* verde mais escuro */
+}

@@ -1,0 +1,109 @@
+body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #ebe5e5;
+    }
+
+    /* Barra */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 40px;
+      background-color: #ff7070;  
+      margin-bottom: 10px;
+    }
+
+    /* Nome/logo */
+    .navbar .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    /* Links */
+    .navbar .menu a {
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 6px;
+      transition: 0.3s;
+      
+    }
+
+    /* Efeito hover */
+    .navbar .menu a:hover {
+      background: rgba(255,255,255,0.2);
+    }
+
+    /* botão do Entrar */
+    .navbar .menu a.btn {
+      background: #fff;
+      color: #ff4d4d;
+      font-weight: bold;
+    }
+      /*Colocar o mouse no entrae*/
+    .navbar .menu a.btn:hover {
+      background: #ffecec;
+    }
+
+    main {
+  width: 100%;    /* pega toda a largura */
+  height: 100%;   /* pega toda a altura */
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nomeeqntd {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 65%;   /* controla a largura → margin:auto vai funcionar */
+  height: 150px;
+  margin: auto; /* centraliza */
+   padding: 30px;       /* respiro interno */
+  
+  background: #fff;    /* fundo branco para destacar */
+  border-radius: 16px; /* cantos arredondados */
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1)
+}
+
+.nome{
+    margin: auto;
+    font-family:"Playfair Display", serif;;
+    font-size: 50px;
+    font-weight: bold;
+    color: #922828;
+    padding: 20px;
+    text-shadow: 2px 2px 5px rgba(38, 37, 37, 0.5);
+}
+
+.qntd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+}
+
+.valoresMercados{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: large;
+    font-weight: bold;
+    margin-left:220px;
+
+}
+
+.valoresCidades{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 65px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
