@@ -77,7 +77,7 @@ body {
 }
 
 .menucadastro input:focus {
-  border-color: #ff7070; /* cor quando clica */
+  border-color: #65b8fb; /* cor quando clica */
   outline: none;
 }
 

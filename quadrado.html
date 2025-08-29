@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 
     <style>
         .quadrado{
@@ -13,32 +15,92 @@
             height: 150px;
             border: 2px solid #081645; 
             border-radius: 3px;
-             box-shadow:0 1px 1px #ff7070;
+            box-shadow:0 1px 1px #ff7070;
+            background-color: #f7ebeb;
+            margin-top: 20px;
+             
         }
 
-        .fotonome{
+        .fotonome {
             display: grid;
-            grid-template-columns: 80px 1fr;
+            grid-template-columns: 80px 1fr; 
+            /* primeira coluna fixa (imagem), segunda flexível (nome) */
+            gap: 10px;                      
+            /* espaço entre imagem e nome */
+            
         }
+
+         .fotonome .foto {
+            width: 80px;      
+            /* largura fixa */
+            height: 80px;     
+            /* altura fixa */
+            overflow: hidden; 
+            /* corta se a imagem passar do limite */
+            border-radius: 5px;
+        }
+
+        .produto{
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-right: auto;
+            margin-left: 5px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .fotonome .foto img {
+            width: 100%; 
+            height: 100%;
+            object-fit: cover;}
 
         .maisqntdmenos{
             display: grid;
             grid-template-columns: 70px 1fr 70px;
         }
 
+        .quantidade{
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 41px;
+            font-size: 40px;
+        }
+
+        .menos{
+           margin-top: auto;
+           margin-bottom: auto;
+           margin-left: 30px;
+            font-size: 35px;
+            color: red;
+        }
+
+        .mais{
+            margin-top: auto;
+           margin-bottom: auto;
+           margin-right: 30px;
+            font-size:35px;
+            color: rgb(0, 255, 17);
+            
+        }
+
+
     </style>
 </head>
 <body>
     <div class="quadrado">
         <div class="fotonome">
-            <div style="background-color: aquamarine;">foto</div>
-            <div style="background-color: brown;">nome</div>
+            <div class="foto">
+            <img src="pngtree-onion-healthy-vegetables-png-image_6343693.jpg" alt=""></div>
+
+             <div class="produto">Cebola</div>
         </div>
+        
         <div class="maisqntdmenos">
-            <div style="background-color: blue;">1</div>
-            <div style="background-color: aquamarine;">2</div>
-            <div style="background-color: chocolate;">3</div>
+            <div class="menos"> <i class="fa-solid fa-minus"></i></div>
+            <div class="quantidade">0</div>
+            <div class="mais"> <i class="fa-solid fa-plus"></i></div>
         </div>
     </div>
+
 </body>
 </html>
