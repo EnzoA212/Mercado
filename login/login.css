@@ -89,7 +89,7 @@ body {
 }
 
 .menuLogin input:focus {
-  border-color: #ff7070; /* cor quando clica */
+  border-color: #007bff; /* cor quando clica */
   outline: none;
 }
 
